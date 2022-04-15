@@ -3,6 +3,7 @@ import bridgeOnTruck
 import ExpectedTable
 import world124
 import newsClustering
+import tuple
 
 # 주식가격
 #print(StockPrice.solution([1, 2, 3, 2, 3]))
@@ -18,7 +19,10 @@ import newsClustering
 #print(world124.solution(10))
 
 # 뉴스클러스터링
-print(newsClustering.solution("aaaaaa", "aaabqwer"))
+#print(newsClustering.solution("aaaaaa", "aaabqwer"))
+
+#튜플
+tuple.solution("{{2},{2,1},{2,1,3},{2,1,3,4}}")
 
 
 
