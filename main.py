@@ -2,6 +2,7 @@ import StockPrice
 import bridgeOnTruck
 import ExpectedTable
 import world124
+import newsClustering
 
 # 주식가격
 #print(StockPrice.solution([1, 2, 3, 2, 3]))
@@ -14,5 +15,11 @@ import world124
 #print(ExpectedTable.solution(8, 4, 7))
 
 # 124나라
-print(world124.solution(10))
+#print(world124.solution(10))
+
+# 뉴스클러스터링
+print(newsClustering.solution("aaaaaa", "aaabqwer"))
+
+
+
 
