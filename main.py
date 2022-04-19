@@ -4,6 +4,10 @@ import ExpectedTable
 import world124
 import newsClustering
 import tuple
+import rowcolunm
+import delivery
+import dijkstra1
+import dijkstra2
 
 # 주식가격
 #print(StockPrice.solution([1, 2, 3, 2, 3]))
@@ -22,8 +26,14 @@ import tuple
 #print(newsClustering.solution("aaaaaa", "aaabqwer"))
 
 #튜플
-tuple.solution("{{2},{2,1},{2,1,3},{2,1,3,4}}")
+#tuple.solution("{{2},{2,1},{2,1,3},{2,1,3,4}}")
 
+#행렬 테두리 회전하기
+#rowcolunm.solution("","","")
 
+#배달
+#delivery.solution(5, [[1,2,1],[2,3,3],[5,2,2],[1,4,2],[5,3,1],[5,4,2]], 3)
 
-
+# 백준_다익스트라 알고리즘연습
+#dijkstra1.solution()
+dijkstra2.solution()
