@@ -8,6 +8,7 @@ import rowcolunm
 import delivery
 import dijkstra1
 import dijkstra2
+import gameMap
 
 # 주식가격
 #print(StockPrice.solution([1, 2, 3, 2, 3]))
@@ -36,4 +37,7 @@ import dijkstra2
 
 # 백준_다익스트라 알고리즘연습
 #dijkstra1.solution()
-dijkstra2.solution()
+#dijkstra2.solution()
+
+# 게임맵
+gameMap.solution()
