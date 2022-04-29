@@ -9,6 +9,9 @@ import delivery
 import dijkstra1
 import dijkstra2
 import gameMap
+from pythonTest import chocoDivd
+from pythonTest import timeAdd
+
 
 # 주식가격
 #print(StockPrice.solution([1, 2, 3, 2, 3]))
@@ -40,4 +43,10 @@ import gameMap
 #dijkstra2.solution()
 
 # 게임맵
-gameMap.solution()
+#gameMap.solution()
+
+# 초콜릿 나누기
+#chocoDivd.solution()
+
+# 파이썬 시간계산 테스트
+timeAdd.solution()
