@@ -11,7 +11,10 @@ import dijkstra2
 import gameMap
 from pythonTest import chocoDivd
 from pythonTest import timeAdd
+from LeetCode import romanToInt
 
+#Leetcode 문제
+romanToInt.Solution()
 
 # 주식가격
 #print(StockPrice.solution([1, 2, 3, 2, 3]))
@@ -49,4 +52,4 @@ from pythonTest import timeAdd
 #chocoDivd.solution()
 
 # 파이썬 시간계산 테스트
-timeAdd.solution()
+#timeAdd.solution()
