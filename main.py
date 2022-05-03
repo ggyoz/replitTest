@@ -12,9 +12,13 @@ import gameMap
 from pythonTest import chocoDivd
 from pythonTest import timeAdd
 from LeetCode import romanToInt
+from LeetCode import LongestPrefix
 
 #Leetcode 문제
-romanToInt.Solution()
+# r = romanToInt.Solution()
+# r.romanToInt("III")
+r = LongestPrefix.Solution()
+r.longestCommonPrefix(["flower","flow","flight"])
 
 # 주식가격
 #print(StockPrice.solution([1, 2, 3, 2, 3]))

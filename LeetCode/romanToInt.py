@@ -1,6 +1,8 @@
 # 로마숫자 변환
 class Solution:
     def romanToInt(self, s: str) -> int:
+
+        s = "III"
         
         temp = 9999      
         answer = 0
@@ -18,6 +20,9 @@ class Solution:
                 answer += (temp * -2)
             answer += val
             temp = val
+
+
+        print(answer)
             
         return answer        
     
