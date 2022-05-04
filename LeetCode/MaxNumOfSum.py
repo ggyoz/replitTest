@@ -3,7 +3,8 @@ from collections import Counter
 class Solution:
     def maxOperations(self, nums: [int], k: int) -> int:
       
-        answer = 0      
+        answer = 0  
+        # 카운터 자주나오니까 기억해두자
         counts = Counter(nums)
 
         if(k % 2 == 0):
