@@ -6,29 +6,14 @@
 #         self.right = right
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+      
+        if not p and not q:
+            return True
+        elif not p or not q or p.val!=q.val:
+            return False
         
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
         
-        p_list = []
-        q_list = []        
-        
-        Solution.addArray(p, p_list)        
-        Solution.addArray(q, q_list)
-        
-        print(p_list)
-        print(q_list)
-        
-        
-        return p_list == q_list
-        
-    
-    def addArray(root: Optional[TreeNode], answer: list):          
-        
-        if root == None:
-            return
-        
-        Solution.addArray(root.left, answer)        
-        answer.append(root.val)        
-        Solution.addArray(root.right, answer)        
         
         
         
