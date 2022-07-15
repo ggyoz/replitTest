@@ -13,15 +13,18 @@ class Solution:
         
         # print(nums)
 
-        num = ''
-        tmp = nums[:]
+        # num = ''
+        # tmp = nums[:]
         
-        for n in tmp:
+        # for n in tmp:
             
-            if n == num:
-                nums.remove(n)
-            num = n               
+        #     if n == num:
+        #         nums.remove(n)
+        #     num = n               
         
+        # return len(nums)
+
+        nums[:] = sorted(set(nums))        
         return len(nums)
         
         
